@@ -44,7 +44,7 @@ The above question can be solved by using Truth Table and karnaugh-map.
         | >{\centering\arraybackslash}X
         | >{\centering\arraybackslash}X|}
     \hline
-  \multicolumn{3}{|c}{Present State} & \multicolumn{3}{|c}{Flip-Flop i/p} & \multicolumn{3}{|c|}{Next State}\\ 
+  \multicolumn{3}{|c|}{Present State}&\multicolumn{3}{c|}{Flip-Flop i/p}&\multicolumn{3}{c|}{Next State}\\ 
     \hline
 \textbf{$Q_0$}&\textbf{$Q_1$}&\textbf{$Q_2$}&\textbf{$D_0$}&\textbf{$D_1$}&\textbf{$D_2$}&\textbf{$Q_0'$}&\textbf{$Q_1'$}&\textbf{$ Q_2'$}\\
  \hline
@@ -120,18 +120,18 @@ Therefore, given circuit is Divide by 5 circuit.
 \section{\textbf{Implementation}}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}      
 \hline                              
-\multirow{2}{*}{} & \multicolumn{3}{c|}{INPUT} & \multicolumn{3}{c|}{OUTPUT} & \multicolumn{2}{|c}{\multirow{2}{*}{CLOCK}} & \multicolumn{4}{|c|}{\multirow{3}{*}{5V}} \\      
+\multirow{2}{*}{} & \multicolumn{3}{c|}{INPUT} & \multicolumn{3}{c|}{OUTPUT} & \multicolumn{2}{c|}{\multirow{2}{*}{CLOCK}} & \multicolumn{4}{c|}{\multirow{2}{*}{5V}} \\      
 \cline{2-7}     
-& Q0 & Q1 & Q2 & Q0' & Q1' & Q2' & \multicolumn{2}{|c|}{\multirow{2}{*}{}} & \multicolumn{4}{|c|}{} \\        
+& Q0 & Q1 & Q2 & Q0' & Q1' & Q2' & \multicolumn{2}{|c|}{\multirow{2}{*}{}} & \multicolumn{4}{c|}{} \\        
 \hline          
-Arduino & D9 & D10 & D11 & D2 & D3 & D4 & \multicolumn{2}{|c|}{A5} &
-\multicolumn{4}{|c|}{\multirow{3}{*}{}}\\                                   
+Arduino & D9 & D10 & D11 & D2 & D3 & D4 & \multicolumn{2}{c|}{A5} &
+\multicolumn{4}{c|}{\multirow{3}{*}{}}\\                                   
 \hline                             
 7474 & 5 & 9 &  & 2 & 12 &  & CLK1 & CLK2 & 1 & 4 & 10 & 13 \\                   
 \hline                     
 7474 & & & 9 & & & 12 & CLK1 & CLK2 & 1 & 4  & 10 & 13 \\                       
 \hline                         
-             
+        
 \end{tabular}
 \begin{center}
     Connections
