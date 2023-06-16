@@ -45,9 +45,9 @@ void setup(){
 void loop() {
   OTAloop();
   R=digitalRead(2);
-  S=digitalRead(4);
-  P=digitalRead(6);
-  Q=digitalRead(8);
+  S=digitalRead(3);
+  P=digitalRead(4);
+  Q=digitalRead(5);
   F=S||(!R&&Q);
 if(F){  digitalWrite(13,HIGH);}
 else {digitalWrite(13,LOW);}
