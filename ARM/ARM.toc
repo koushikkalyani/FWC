@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {I}\textbf {Question}}{1}{section.1}%
+\contentsline {section}{\numberline {II}\textbf {Answer}}{1}{section.2}%
+\contentsline {section}{\numberline {III}\textbf {K-Map Implementation}}{1}{section.3}%
+\contentsline {section}{\numberline {IV}\textbf {Truth Table}}{1}{section.4}%
+\contentsline {section}{\numberline {V}\textbf {Logic Diagram}}{1}{section.5}%
+\contentsline {section}{\numberline {VI}\textbf {Components}}{2}{section.6}%
+\contentsline {section}{\numberline {VII}\textbf {Implementation}}{2}{section.7}%
