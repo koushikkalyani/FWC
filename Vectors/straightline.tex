@@ -40,7 +40,7 @@ breaklines=true
 \begin{document}
 
 \begin{center}
-\title{\textbf{Straight Lines}}
+\title{\textbf{Vector Algebra}}
 \date{\vspace{-5ex}} %Not to print date automatically
 \maketitle
 \end{center}
@@ -50,16 +50,16 @@ This is Problem-12 from Exercise 10.4
 \begin{enumerate}
     \item Find the equation of the line passing through the point of intersection of the lines $4x + 7y - 3 = 0$ and $2x - 3y + 1 = 0$ that has equal intercepts on the axes.\\
     \solution \\
-    Given lines can be written in the form of n$^{T}$x = $c$
+    Given lines can be written in the form of $\Vec{n}$$^{T}$$\Vec{x}$ = c
    \\Therefore,\\ \begin{align}
-       \myvec{4&7}x=3
+       \myvec{4&7}\vec{x}=3
    \end{align} 
    \begin{align}
-       \myvec{2&-3}x=-1
+       \myvec{2&-3}\vec{x}=-1
    \end{align}\\
    Now, line equation that has equal intercepts on the axes is
    \begin{align}
-       \myvec{1 & 1}x=c
+       \myvec{1 & 1}\Vec{x}=c
    \end{align}
    Solving equations (1) and (2)\\augumented matrix is
   \begin{align}
@@ -96,17 +96,17 @@ $R_1 \leftarrow R_1-\frac{7}{4}R_2$
     0 & 1 & \frac{5}{13}
   \end{pmatrix}
 \end{align}
-Therfore, $x = \myvec{\frac{1}{13}\\ \\ \frac{5}{13}}$ Also this point lies on the equation (3)\\
+Therfore, $\vec{x} = \myvec{\frac{1}{13}\\ \\ \frac{5}{13}}$ Also this point lies on the equation (3)\\
 \begin{center}
     $\myvec{1 & 1}\myvec{\frac{1}{13} \\ \\ \frac{5}{13}} = c$
     \vspace{\baselineskip}\\
     $\frac{1}{13}+\frac{5}{13} = c$
      \vspace{\baselineskip}\\
-    Therefore, the equation is $\myvec{1&1}x=\frac{6}{13}$
+    Therefore, the equation is $\myvec{1&1}\Vec{x}=\frac{6}{13}$
 \end{center}
 \begin{figure}
     \centering
-	\includegraphics[width=\columnwidth]{figs/straightline.png}
+    \includegraphics[width=\columnwidth]{figs/straightline.png}
     \caption{Straight Lines}
     \label{fig:enter-label}
 \end{figure}
