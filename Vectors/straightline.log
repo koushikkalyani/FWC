@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.6)  12 JUL 2023 12:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.6)  12 JUL 2023 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**stline.tex
-(./stline.tex
+**straightline.tex
+(./straightline.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -437,8 +437,8 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count306
 \l__pdf_internal_box=\box61
 )
-(./stline.aux)
-\openout1 = `stline.aux'.
+(./straightline.aux)
+\openout1 = `straightline.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -515,9 +515,9 @@ LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
 
-(./stline.out) (./stline.out)
+(./straightline.out) (./straightline.out)
 \@outlinefile=\write3
-\openout3 = `stline.out'.
+\openout3 = `straightline.out'.
 
 LaTeX Info: Completed page discarded.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
@@ -550,18 +550,18 @@ File: figs/straightline.png Graphic file (type png)
 <use figs/straightline.png>
 Package pdftex.def Info: figs/straightline.png  used on input line 109.
 (pdftex.def)             Requested size: 390.0pt x 296.04549pt.
-[2] [3 <./figs/straightline.png>] (./stline.aux)
-Package rerunfilecheck Info: File `stline.out' has not changed.
+[2] [3 <./figs/straightline.png>] (./straightline.aux)
+Package rerunfilecheck Info: File `straightline.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13591 strings out of 478287
- 217934 string characters out of 5849290
- 713856 words of memory out of 5000000
+ 13590 strings out of 478287
+ 218024 string characters out of 5849290
+ 713868 words of memory out of 5000000
  31573 multiletter control sequences out of 15000+600000
  479269 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,71p,241b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,71p,247b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -570,7 +570,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb>
-Output written on stline.pdf (3 pages, 119866 bytes).
+Output written on straightline.pdf (3 pages, 119866 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
