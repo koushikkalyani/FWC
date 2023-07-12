@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.6)  12 JUL 2023 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.6)  12 JUL 2023 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,21 +545,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-<stline.png, id=22, 608.2725pt x 461.725pt>
-File: stline.png Graphic file (type png)
-<use stline.png>
-Package pdftex.def Info: stline.png  used on input line 109.
+<figs/stline.png, id=22, 608.2725pt x 461.725pt>
+File: figs/stline.png Graphic file (type png)
+<use figs/stline.png>
+Package pdftex.def Info: figs/stline.png  used on input line 109.
 (pdftex.def)             Requested size: 390.0pt x 296.04549pt.
-[2] [3 <./stline.png>] (./stline.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+[2] [3 <./figs/stline.png>] (./stline.aux)
 Package rerunfilecheck Info: File `stline.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13589 strings out of 478287
- 217851 string characters out of 5849290
+ 13590 strings out of 478287
+ 217886 string characters out of 5849290
  713856 words of memory out of 5000000
  31573 multiletter control sequences out of 15000+600000
  479269 words of font info for 67 fonts, out of 8000000 for 9000
