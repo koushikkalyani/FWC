@@ -56,6 +56,7 @@ def display_coordinates(x, y):
     plt.text(x, y, f'({x}, {y})', verticalalignment='bottom')
 display_coordinates((x_solution + y_solution), 0)
 display_coordinates(0,(x_solution + y_solution))
+display_coordinates(x_solution,y_solution)
 
 plt.xlim(-0.7, 0.7)
 plt.legend()
